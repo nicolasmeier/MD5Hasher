@@ -55,7 +55,7 @@ namespace MD5Hasher
             {
                 sb.Append(buffer[i].ToString("x2"));
             }
-            return sb.ToString();
+            return sb.ToString().ToUpper();
         }
 
     }
